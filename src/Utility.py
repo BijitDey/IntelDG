@@ -14,6 +14,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chat_models import AzureChatOpenAI
 from langchain.llms import AzureOpenAI
 from langchain.embeddings import OpenAIEmbeddings
+# 
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+# import chromadb
 from langchain.vectorstores import Chroma
 
 footer = """Affine Inc. 2018 156th Avenue, N.E, Building F, Suite 333, Bellevue, Washington, 98007 Tel: +91 -80-6569 -0996 | Web: www.affine.ai | Mail: info@affine.ai Affine Confidential"""
