@@ -10,7 +10,7 @@ pandas==2.0.0
 Pillow==9.5.0
 openai==0.27.7
 opencv-python-headless
-pysqlite3-binary>=3.35.0
+pysqlite3-binary #>=3.35.0
 chromadb #==0.3.22
 Chroma
 pydantic-settings
