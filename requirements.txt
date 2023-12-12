@@ -12,6 +12,7 @@ openai==0.27.7
 opencv-python-headless
 chromadb #==0.3.22
 pydantic-settings
+pysqlite3-wheels
 pysqlite3
 #sqlite3>=3.35.0
 #pywin32
