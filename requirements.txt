@@ -2,8 +2,8 @@ langchain==0.0.283
 streamlit #==1.28.1
 extra_streamlit_components #==0.1.60
 pymupdf #==1.21.1
-pdf2docx==0.5.6
-docx2pdf==0.1.8
+pdf2docx #==0.5.6
+docx2pdf #==0.1.8
 tiktoken #==0.2.0
 python-docx #==1.1.0
 pandas #==2.0.0
@@ -11,7 +11,7 @@ Pillow #==9.5.0
 openai #==0.27.7
 opencv-python-headless
 # pysqlite3-binary==0.5.2 #3.35.0
-chromadb==0.3.29
+chromadb #==0.3.29
 #Chroma
 pydantic-settings
 # sqlite3>=3.35.0
