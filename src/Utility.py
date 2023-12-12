@@ -155,7 +155,7 @@ class TextProcessingUtility:
         # Return the list of document chunks
         return document_chunks
 
-    def model_load(self,deployment_name:None|str=None, model_type:str="gpt-4"):
+    def model_load(self, deployment_name: (None, str) = None, model_type: str = "gpt-4"):
         """
         Load and initialize an OpenAI language model based on the specified model type.
 
