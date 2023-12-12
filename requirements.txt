@@ -11,8 +11,8 @@ Pillow==9.5.0
 openai==0.27.7
 opencv-python-headless
 chromadb #==0.3.22
+sqlite3>=3.35.0
 Chroma
 pydantic-settings
-#sqlite3>=3.35.0
 #pywin32
 #pypiwin32
