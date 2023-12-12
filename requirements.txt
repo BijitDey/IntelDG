@@ -1,4 +1,4 @@
-langchain==0.0.283
+langchain #==0.0.283
 streamlit #==1.28.1
 extra_streamlit_components #==0.1.60
 pymupdf #==1.21.1
